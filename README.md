@@ -24,7 +24,7 @@ Typical structure:
 Instead:
 
 ```bash
-git clone <REPO_URL> /tmp/cursor-config
+git clone https://github.com/ccomkhj/cursor-configuration /tmp/cursor-config
 mkdir -p ~/.cursor
 rsync -av --ignore-existing /tmp/cursor-config/ ~/.cursor/
 ````
