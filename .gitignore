@@ -1,0 +1,15 @@
+ai-tracking
+argv.json
+blocklist
+chats
+cli-config.json
+cursor-commands
+extensions
+ide_state.json
+mcp.json
+plans
+projects
+skills-cursor
+unified_repo_list.json
+workers
+.env
