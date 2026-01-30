@@ -58,3 +58,16 @@ To prevent credential leakage and reduce noise:
 * API keys / tokens
 * private keys (`*.pem`, `*.key`, etc.)
 * logs, reports, caches, outputs
+
+---
+
+### New to the setup? Read below.
+
+- Rules provide system-level instructions to Agent. They bundle prompts, scripts, and more together, making it easy to manage and share workflows across your team.
+- Custom commands allow you to create reusable workflows that can be triggered with a simple / prefix in the chat input box.
+- Agent Skills is an open standard for extending AI agents with specialized capabilities. Skills package domain-specific knowledge and workflows that agents can use to perform specific tasks.
+    - [openskills](https://github.com/numman-ali/openskills)
+- Subagents are specialized AI assistants that Cursor's agent can delegate tasks to. Each subagent operates in its own context window, handles specific types of work, and returns its result to the parent agent. Use subagents to break down complex tasks, do work in parallel, and preserve context in the main conversation.
+- Semantic search finds code by understanding its meaning, not just matching text. Ask natural language questions like "where is authentication handled?" and get relevant results across your entire codebase.
+- Model Context Protocol (MCP) enables Cursor to connect to external tools and data sources.
+    - [fastmcp](https://github.com/jlowin/fastmcp)
