@@ -1,3 +1,5 @@
+> This repo is archived. Use [THIS](https://github.com/ccomkhj/skills)
+
 # .cursor (Personal Cursor Config)
 
 Personal Cursor configuration + helper scripts used across projects.
